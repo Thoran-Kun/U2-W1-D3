@@ -1,0 +1,21 @@
+section {
+  background-color: #fbf7e3;
+  display: flex;
+  border-radius: 40px;
+}
+
+img {
+  margin: 30px;
+}
+
+h2 {
+  color: #612406;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #612406;
+  margin-right: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
