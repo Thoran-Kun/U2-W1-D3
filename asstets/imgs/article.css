@@ -19,3 +19,25 @@ p {
   margin-right: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 576px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div {
+    order: 1;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    order: 2;
+  }
+
+  h2 {
+    margin-top: 35px;
+  }
+}
