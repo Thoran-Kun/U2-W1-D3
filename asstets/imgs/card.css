@@ -28,6 +28,7 @@
 #primo {
   display: flex;
   flex-direction: column;
+  margin-left: 5px;
 }
 
 h3 {
@@ -35,9 +36,9 @@ h3 {
 }
 
 #container #secondo {
-  display: flex;
   flex-grow: 1;
   text-align: center;
+  align-self: center;
 }
 
 .price {
